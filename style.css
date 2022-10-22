@@ -1,0 +1,128 @@
+body {
+    font-family: 'Dongle', sans-serif;
+    line-height: 1.8;
+    font-size: 25px;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    
+}
+h5{
+    font-family: fantasy;
+}
+
+.navbar {
+    background-color: #af9865;
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(187, 176, 139, 0.7));
+    z-index: -1;
+}
+.about-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(207, 192, 141, 0.7), rgba(0, 0, 0, 0.7));
+    z-index: -1;
+}
+.bg-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    padding: 14px 22px;
+    transition: all 0.3s ease;
+}
+
+.btn-main {
+    background: linear-gradient(#ffffff, #ffffff);
+    border-radius: 10px;
+    border: none;
+    font-family: fantasy;
+    color: rgba(50, 47, 47, 0.781);
+}
+.btn:hover {
+    color: rgba(196, 177, 102, 0.683);
+    transform: translateY(-5px);
+}
+img {
+    width: 50%;
+}
+.section-intro {
+    margin-bottom: 40px;
+}
+
+.section-intro .divider {
+    height: 4px;
+    width: 100px;
+    background: linear-gradient(to right,#b2b0b0, rgba(207, 192, 141, 0.7));
+    margin: 16px auto;
+}
+.review {
+    box-shadow: 0 12px 12px rgba(0,0,0,0.1);
+}
+.review .person {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+    padding-bottom: 18px;
+}
+
+.review .person img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+
+.review .stars {
+    color: orange;
+}
+form .form-control {
+    border-radius: 0;
+    color: rgb(184, 184, 184);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+
+form input.form-control {
+    height: 54px;
+}
+
+form .form-control::placeholder {
+    color: rgb(147, 147, 147);
+    font-family: fantasy;
+    font-weight: lighter;
+}
+footer {
+    background-color:#b49c69a8;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
